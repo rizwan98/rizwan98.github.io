@@ -358,6 +358,59 @@ body{
     transform: scale(1.5);
         cursor: pointer;
 }
+.carousel-indicators li {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+}
+.carousel-indicators {
+    bottom: -50px;
+}
+.controls-top{
+    text-align: center;
+    margin-bottom: 1.88rem;
+
+}
+.btn-floating i {
+    font-size: 1.25rem;
+    line-height: 47px;
+    display: inline-block;
+    width: inherit;
+    text-align: center;
+    color: #fff;
+}
+.btn-floating{
+    cursor: pointer;
+    
+}
+
+.btn-floating {
+    box-shadow: 0 5px 11px 0 rgba(0,0,0,.18), 0 4px 15px 0 rgba(0,0,0,.15);
+    width: 47px;
+    height: 47px;
+    position: relative;
+    background: #4285f4;
+    z-index: 1;
+    display: inline-block;
+    overflow: hidden;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    padding: 0;
+}
+
+@media (min-width: 768px) {
+    .carousel-multi-item-2 .col-md-3 {
+    float: left;
+    width: 25%;
+    max-width: 100%; } }
+    
+    .carousel-multi-item-2 .card img {
+    border-radius: 2px; }
 
 /*===============================
         Contacts page
