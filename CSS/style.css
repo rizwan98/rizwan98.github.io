@@ -230,36 +230,43 @@ body{
   	-webkit-animation: html 4s ease;
 }
 .CSS {
-  	width: 65%;
+  	width: 55%;
   	-moz-animation: css 4s ease;
   	-webkit-animation: css 4s ease;
 }
+
 .JAVA {
   	width: 65%;
   	-moz-animation: java 4s ease;
   	-webkit-animation: java 4s ease;
 }
 .CSharp {
-  	width: 55%;
+  	width: 45%;
   	-moz-animation: Csharp 4s ease;
   	-webkit-animation: Csharp 4s ease;
 }
 .JavaScript {
-  	width: 45%;
+  	width: 30%;
   	-moz-animation: Jscript 4s ease;
   	-webkit-animation: Jscript 4s ease;
 }
-.PHP {
-  	width: 30%;
-  	-moz-animation: php 4s ease;
-  	-webkit-animation: php 4s ease;
+
+.React{
+    width: 45%;
+    -moz-animation: react 4s ease;
+    -webkit-animation: react 4s ease;
 }
+
 .SQL {
   	width: 30%;
   	-moz-animation: sql 4s ease;
   	-webkit-animation: sql 4s ease;
 }
-
+.Android{
+    width: 50%;
+    -moz-animation: android 4s ease;
+    -webkit-animation: android 4s ease;
+}
 
 @-moz-keyframes html {
   0%   { width: 0px;  }
@@ -267,7 +274,7 @@ body{
 }
 @-moz-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 65%;  }
+  100% { width: 55%;  }
 }
 @-moz-keyframes java {
   0%   { width: 0px;  }
@@ -275,15 +282,16 @@ body{
 }
 @-moz-keyframes Csharp {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 45%;  }
 }
 @-moz-keyframes Jscript {
   0%   { width: 0px;  }
-  100% { width: 45%;  }
-}
-@-moz-keyframes php {
-  0%   { width: 0px;  }
   100% { width: 30%;  }
+}
+@-moz-keyframes react {
+  0%   { width: 0px;  }
+  100% { width: 45%;  }
+
 }@-moz-keyframes sql {
   0%   { width: 0px;  }
   100% { width: 30%;  }
@@ -295,7 +303,7 @@ body{
 }
 @-webkit-keyframes css {
   0%   { width: 0px;  }
-  100% { width: 65%;  }
+  100% { width: 55%;  }
 }
 @-webkit-keyframes java {
   0%   { width: 0px;  }
@@ -303,20 +311,24 @@ body{
 }
 @-webkit-keyframes Csharp {
   0%   { width: 0px;  }
-  100% { width: 50%;  }
+  100% { width: 45%;  }
 }
 @-webkit-keyframes Jscript {
   0%   { width: 0px;  }
-  100% { width: 45%;  }
-}
-@-webkit-keyframes php {
-  0%   { width: 0px;  }
   100% { width: 30%;  }
+}
+@-webkit-keyframes react {
+  0%   { width: 0px;  }
+  100% { width: 45%;  }
 }@-webkit-keyframes sql {
   0%   { width: 0px;  }
   100% { width: 30%;  }
 }
 
+@-webkit-keyframes android {
+    0%   { width: 0px;  }
+    100% { width: 50%;  }
+  }
 /*===============================
         projects page
 ===============================*/
