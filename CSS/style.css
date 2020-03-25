@@ -31,7 +31,7 @@ body{
 }
 .navbar{
     z-index: 100 !important;
-    background: url(../IMG/footer.png);;
+    background: url('../IMG/footer.png');;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
