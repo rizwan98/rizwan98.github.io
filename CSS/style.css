@@ -37,6 +37,8 @@ body{
     background-position: center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
+    background-repeat: no-repeat;
+
     background-color: #2b2b2b;
     background-attachment: fixed/*paralax*/
 }
